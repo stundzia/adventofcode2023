@@ -1,5 +1,4 @@
 use super::utils::read_file_lines;
-
 use phf::{phf_map};
 
 static NUM_WORDS: phf::Map<&'static str, &'static str> = phf_map! {
